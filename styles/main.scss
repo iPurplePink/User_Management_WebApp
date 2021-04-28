@@ -1,0 +1,27 @@
+$purple: #281043;
+$violet: #6237a0;
+$lavander: #9754cb;
+$lilac: #deacf5;
+$ash: #eeeeee;
+
+html {
+  font-size: 10px;
+  // font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+  //   Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+}
+
+@import "./vendors/antd";
+
+@import "./helpers/spacing";
+
+@import "./components/Button/index";
+@import "./components/Layout/index";
+@import "./components/LoginLayout/index";
+
+@import "./modules/Login/index";

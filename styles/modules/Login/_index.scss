@@ -1,0 +1,28 @@
+.login-section {
+  margin: 50px auto;
+  max-width: 300px;
+
+  .title {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: $violet;
+  }
+
+  .password-form-item {
+    margin: 0;
+  }
+
+  .forgot-password {
+    text-align: right;
+    display: inherit;
+    color: gray;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+
+  .remember-me {
+    font-size: 12px;
+    color: gray;
+  }
+}
