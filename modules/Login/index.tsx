@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import LoginLayout from "../components/LoginLayout";
+import LoginLayout from "../../components/LoginLayout";
 import Form from "antd/lib/form";
 import Input from "antd/lib/input";
 import Button from "antd/lib/button";

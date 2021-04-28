@@ -5,11 +5,11 @@ import "firebase/analytics";
 import "firebase/auth";
 import "firebase/firestore";
 
-const PROJECT_ID = "maridin-san-miguel";
-const API_KEY = "AIzaSyB45NMzJHWWPE-_7Sc1FJkw6kNSo_sQpDU";
-const APP_ID = "1:56666973945:web:785d2757d377afea65a428";
-const G_MEASUREMENT_ID = "G-XH6K0W3Q4K";
-const SENDER_ID = "56666973945";
+const PROJECT_ID = process.env.FIREBASE_PROJECT_ID;
+const API_KEY = process.env.FIREBASE_API_KEY;
+const APP_ID = process.env.FIREBASE_APP_ID;
+const G_MEASUREMENT_ID = process.env.FIREBASE_G_MEASUREMENT_ID;
+const SENDER_ID = process.env.FIREBASE_SENDER_ID;
 
 var firebaseConfig = {
   apiKey: API_KEY,

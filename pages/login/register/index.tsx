@@ -2,7 +2,7 @@ import Layout from "../../../components/Layout";
 import Register from "../../../modules/Register";
 
 const IndexPage = () => (
-  <Layout title="Log in | User Management App">
+  <Layout title="Register | User Management App">
     <Register />
   </Layout>
 );
